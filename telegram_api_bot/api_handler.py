@@ -10,7 +10,7 @@ dispatcher = updater.dispatcher
 
 
 def start(update, context):#greeting on starting
-    ipdate.message.reply_text("Hey there! you have started chatting with Vbot\n here you can request any images!")
+    update.message.reply_text("Hey there! you have started chatting with Vbot\n here you can request any images!")
     update.message.reply_text("you can type something to get your AI image in 1080p")
 
 def get_word_info(update, context):#creating the image fun call
