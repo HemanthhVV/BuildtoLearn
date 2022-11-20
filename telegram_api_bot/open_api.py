@@ -1,7 +1,7 @@
 import os
 import openai
 import requests
-openai.api_key='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'
+openai.api_key='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'
 openai.Model.list()
 def img_gen(word):
     try:
