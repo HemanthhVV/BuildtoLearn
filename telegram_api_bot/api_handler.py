@@ -3,7 +3,7 @@ from telegram.ext import Updater, MessageHandler, Filters
 from telegram.ext import CommandHandler
 from open_api import img_gen
 
-telegram_bot_token = "5700617188:AAHGsjEjNCci8BDBw2bsD8kuvobcRQW_VNY"
+telegram_bot_token = 
 
 updater = Updater(token=telegram_bot_token, use_context=True)
 dispatcher = updater.dispatcher
